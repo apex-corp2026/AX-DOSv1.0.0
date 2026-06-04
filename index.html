@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX Corporation | AX-DOS v1.0.0</title>
+    <style>
+        /* Полная копия цветовой гаммы твоего макета PowerPoint */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            max-width: 950px;
+            margin: 60px auto;
+            padding: 0 40px;
+        }
+
+        /* Шапка по твоему чертежу */
+        header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .brand-title {
+            font-size: 32px;
+            color: #7f7f7f; /* Серый цвет из твоего макета */
+            font-weight: 400;
+            padding-right: 25px;
+            border-right: 1px solid #3a3a3a; /* Линия-разделитель */
+        }
+
+        .welcome-text {
+            font-size: 24px;
+            font-weight: 600;
+            padding-left: 25px;
+            text-decoration: underline; /* Подчеркивание как на скрине */
+        }
+
+        /* Описание */
+        .description {
+            font-size: 15px;
+            color: #cccccc;
+            line-height: 1.6;
+            margin-bottom: 40px;
+            max-width: 850px;
+        }
+
+        /* Центральный блок: Твой скриншот окна AX-DOS по центру */
+        .screenshot-container {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .screenshot-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #333333; /* Аккуратная тонкая серая рамка вокруг снимка */
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Большая синяя кнопка СКАЧАТЬ один в один как на скрине */
+        .download-container {
+            text-align: center;
+            margin: 50px 0 30px 0;
+        }
+
+        .btn-download {
+            background-color: #3b71ca; /* Синий цвет как в Поверпоинте */
+            color: #ffffff;
+            font-size: 26px;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 14px 50px;
+            display: inline-block;
+            letter-spacing: 0.5px;
+            box-shadow: 0 2px 8px rgba(59, 113, 202, 0.3);
+            cursor: pointer;
+        }
+
+        .btn-download:hover {
+            background-color: #2b5cb0;
+        }
+
+        /* Подвал сайта */
+        footer {
+            text-align: center;
+            color: #cccccc;
+            font-size: 13px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+
+    <!-- Шапка сайта -->
+    <header>
+        <div class="brand-title">APEX Corporation</div>
+        <div class="welcome-text">Вас приветствует корпорация APEX&reg;.</div>
+    </header>
+
+    <!-- Основное описание -->
+    <div class="description">
+        Эта корпорация создана для тех кому по душе старый софт и системы. На данном сайте вы можете скачать мою систему AX-DOS&trade; v1.0.0 в виде .exe приложения. Вывод списка команд: help.
+    </div>
+
+    <!-- Твой скриншот терминала по центру -->
+    <div class="screenshot-container">
+        <img src="terminal.png" alt="Интерфейс командной строки AX-DOS v1.0.0">
+    </div>
+
+    <!-- Кнопка загрузки дистрибутива: Наглухо привязана к твоему файлу! -->
+    <div class="download-container">
+        <a href="AX-DOSv1.0.0.exe" download="AX-DOSv1.0.0.exe" class="btn-download">СКАЧАТЬ AX-DOS v 1.0.0</a>
+    </div>
+
+    <!-- Копирайт подвала -->
+    <footer>
+        Copyright &copy; APEX Corporation 2026. Все права защищены.
+    </footer>
+
+</div>
+
+</body>
+</html>
